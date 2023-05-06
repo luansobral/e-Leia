@@ -1,0 +1,24 @@
+/*Resetar bordinha chata do browser*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/*Cabeçalho*/
+header {
+    background-color: #BFA588;
+    height: 146px;
+    width: 100%;
+}
+
+#titulo {
+    font-family: 'Playfair Display', ;
+    color: #552723;
+    display: inline;
+}
+
+header img{
+    border-radius: 50%;
+    height: 88px;
+}
