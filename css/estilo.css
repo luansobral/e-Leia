@@ -8,17 +8,52 @@
 /*Cabeçalho*/
 header {
     background-color: #BFA588;
-    height: 146px;
+    height: 100px;
     width: 100%;
 }
 
+header h1, header h2, header img {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 #titulo {
-    font-family: 'Playfair Display', ;
+    font-family: 'Playfair Display', serif;
     color: #552723;
     display: inline;
 }
 
 header img{
-    border-radius: 50%;
+    line-height: 100px;
     height: 88px;
+    float: left;
+}
+
+header h1{
+    float: left;
+}
+
+header h2{
+    float: right;
+}
+
+#dropdown {
+    height: 15px;
+    float: right;
+}
+
+#userpic {
+    border-radius: 50%;
+    float: right;
+}
+
+.interface {
+    font-family: 'Inter', Helvetica, sans-serif;
+    color: #552723;
+}
+
+hr{
+    border: none;
+    height: 3px;
+    background-color: #552723;
 }
