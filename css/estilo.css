@@ -10,11 +10,8 @@ header {
     background-color: #BFA588;
     height: 100px;
     width: 100%;
-}
-
-header h1, header h2, header img {
-    margin-top: auto;
-    margin-bottom: auto;
+    display: flex;
+    align-items: center;
 }
 
 #titulo {
@@ -23,28 +20,34 @@ header h1, header h2, header img {
     display: inline;
 }
 
-header img{
-    line-height: 100px;
-    height: 88px;
+#logo {
+    height: 85px;
     float: left;
+    margin-right:30px;
+    margin-left: 70px;
 }
 
 header h1{
     float: left;
+    margin-right: 65%;
+    font-size: 36px;
 }
 
 header h2{
     float: right;
+    margin-right: 15px;
 }
 
 #dropdown {
-    height: 15px;
+    height: 9px;
     float: right;
 }
 
 #userpic {
+    height: 70px;
     border-radius: 50%;
     float: right;
+    margin-right: 20px;
 }
 
 .interface {
