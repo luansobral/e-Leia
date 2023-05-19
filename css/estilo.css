@@ -5,58 +5,74 @@
     box-sizing: border-box;
   }
 
+
+/*geralzão*/  
+:root{
+    --marrom-claro: #BFA588;
+    --marrom-escuro: #552723;
+    --marrom-card: #7B533E; 
+    --user-card: #604847;
+    --letra-poema: #FFE6CA;
+}
+
+body{
+    background-color: var(--marrom-claro);
+}
+
 /*Cabeçalho*/
 header {
-    background-color: #BFA588;
     height: 100px;
     width: 100%;
+    display: flex;
+}
+
+.containerh1, .containerh2{
+    width: 50%;
     display: flex;
     align-items: center;
 }
 
-#titulo {
-    font-family: 'Playfair Display', serif;
-    color: #552723;
-    display: inline;
+.containerh2{
+    justify-content: flex-end;
 }
 
-#logo {
+#titulo {
+    font-family: 'Playfair Display', serif;
+    color: var(--marrom-escuro);
+}
+
+#logo{
     height: 85px;
-    float: left;
-    margin-right:30px;
-    margin-left: 70px;
+    margin-left: 8%;
+    margin-right: 32px;
 }
 
 header h1{
-    float: left;
-    margin-right: 65%;
     font-size: 36px;
 }
 
 header h2{
-    float: right;
-    margin-right: 15px;
+    margin-right: 8px;
+    margin-left: 26px;
 }
 
 #dropdown {
     height: 9px;
-    float: right;
+    margin-right: 8%;
 }
 
 #userpic {
     height: 70px;
     border-radius: 50%;
-    float: right;
-    margin-right: 20px;
 }
 
 .interface {
     font-family: 'Inter', Helvetica, sans-serif;
-    color: #552723;
+    color: var(--marrom-escuro);
 }
 
 hr{
     border: none;
     height: 3px;
-    background-color: #552723;
+    background-color: var(--marrom-escuro);
 }
