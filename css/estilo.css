@@ -77,7 +77,7 @@ hr{
     background-color: var(--marrom-escuro);
 }
 
-/* corpo/feed */
+/* Banner */
 
 .banner{
     display: flex;
@@ -96,4 +96,36 @@ hr{
 a img{
     width: 36px;
     height: 36px;
+}
+
+/* Feed */
+
+.containerfeed{
+    display: flex;
+}
+
+.publiAlguem{
+    width: 275px;
+    height: 510px;
+    background-color: var(--marrom-card);
+    border-radius: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.publiAlguem h2, .publiAlguem p{
+    font-family: 'Playfair Display', serif;
+    color: var(--letra-poema);
+}
+
+
+
+.publiUsuario{
+    display: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
 }
