@@ -105,27 +105,66 @@ a img{
 }
 
 .publiAlguem{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
     width: 275px;
     height: 510px;
     background-color: var(--marrom-card);
     border-radius: 30px;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    margin-right: 45px;
 }
 
-.publiAlguem h2, .publiAlguem p{
+.publiAlguem h2, .publiUsuario h2{
+    font-weight: 500;
+    font-size: 33px;
+}
+
+.publiAlguem h2, .publiAlguem p, .publiUsuario h2, .publiUsuario p{
     font-family: 'Playfair Display', serif;
     color: var(--letra-poema);
 }
 
-
-
-.publiUsuario{
-    display: none;
+.publiAlguem p, .publiUsuario p{
+    font-size: 18px;
 }
 
-body{
+.tituloCard{
+    margin-bottom: 15px;
+}
+
+.containerAssinatura{
+    width: 100%;
     display: flex;
-    justify-content: center;
-    margin-top: 120px;
+    justify-content: end;
+    align-items: end;
+    padding-bottom: 18px;
+}
+
+.poemaCard{
+}
+
+.poemaCard p{
+    line-height: 25px;
+}
+
+.publiUsuario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 275px;
+    height: 510px;
+    background-color: var(--user-card);
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    margin-right: 45px;
 }
