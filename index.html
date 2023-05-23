@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;200;400;500;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
     <title>e-Leia</title>
 </head>
@@ -41,7 +41,7 @@
         <!--Feed de poemas-->
         <div class="containerfeed">
             <img src="imagens/pra tras.png" alt="Voltar feed de poemas">
-                <div id="feed">
+                <div class="feed">
                     <div class="publiAlguem"> <!--Cards dos poemas publicados pelos outros usuários-->
                         <div class="poema">
                             <div class="tituloCard"><h2>Pronominais</h2></div>
@@ -67,17 +67,20 @@
 
                     <div class="publiAlguem">
                         <div class="poema">
-                            <h2 class="tituloCard">O Bicho</h2>
+                            <div class="tituloCard"><h2>O Bicho</h2></div>
 
-                            <p class="poemaCard">Vi ontem um bicho
-                                Na imundície do pátio
-                                Catando comida entre os detritos.
-                                Quando achava alguma coisa,
-                                Não examinava nem cheirava:
-                                Engolia com voracidade.
-                                O bicho não era um cão,
-                                Não era um gato,
-                                Não era um rato.  <strong>(...)</strong></p> <!--Futuramente os tres pontinhos entre parênteses vão ser automatizados com "text-overflow: ellipsis" -->
+                            <div class="poemaCard">
+                                <p>Vi ontem um bicho</p>
+                                <p>Na imundície do pátio</p>
+                                <p>Catando comida entre os detritos.</p>
+                                <p>Quando achava alguma coisa,</p>
+                                <p>Não examinava nem cheirava:</p>
+                                <p>Engolia com voracidade.</p>
+                                <p>O bicho não era um cão,</p>
+                                <p>Não era um gato,</p>
+                                <p>Não era um rato.  <strong>(...)</strong></p> <!--Futuramente os tres pontinhos entre parênteses vão ser automatizados com "text-overflow: ellipsis" -->
+                                
+                            </div>
                         </div>
 
                         <div class="containerAssinatura">
@@ -89,10 +92,10 @@
                         <div class="poema">
                             <h2 class="tituloCard">Poema que aconteceu</h2>
                             <p class="poemaCard">Nenhum desejo neste domingo</p>
-                                Nenhum problema nesta vida</p>
-                                O mundo parou de repente</p>
-                                Os homens ficaram calados</p>
-                                Domingo sem fim nem conheço  <strong>(...)</strong></p>
+                                <p>Nenhum problema nesta vida</p>
+                                <p>O mundo parou de repente</p>
+                                <p>Os homens ficaram calados</p>
+                                <p>Domingo sem fim nem conheço  <strong>(...)</strong></p>
                         </div>
 
                         <div class="containerAssinatura">
@@ -102,11 +105,14 @@
 
                     <div class="publiAlguem">
                         <div class="poema">
-                            <h2 class="tituloCard">O gramático</h2>
-                            <p class="poemaCard">Os negros discutiam
-                                Que o cavalo sipantou
-                                Mas o que mais sabia
-                                Disse que era Sipantarrou</p>
+                            <div class="tituloCard"><h2>O gramático</h2></div>
+
+                            <div class="poemaCard">
+                                <p>Os negros discutiam</p>
+                                <p>Que o cavalo sipantou</p>
+                                <p>Mas o que mais sabia</p>
+                                <p>Disse que era Sipantarrou</p>
+                            </div>
                         </div>
 
                         <div class="containerAssinatura">

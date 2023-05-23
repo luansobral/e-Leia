@@ -102,6 +102,17 @@ a img{
 
 .containerfeed{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.containerfeed img{
+    height: 36px;
+}
+
+.feed{
+    display: flex;
+    flex-direction: row;
 }
 
 .publiAlguem{
@@ -131,7 +142,8 @@ a img{
 }
 
 .publiAlguem p, .publiUsuario p{
-    font-size: 18px;
+    font-size: 21px;
+    font-weight: 100;
 }
 
 .tituloCard{
@@ -147,6 +159,13 @@ a img{
 }
 
 .poemaCard{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: auto 0;
+}
+.poemaCard:first-child{
+    margin-top: 30px;
 }
 
 .poemaCard p{
