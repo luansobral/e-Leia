@@ -104,6 +104,7 @@ a img{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 20px;
 }
 
 .containerfeed img{
@@ -113,6 +114,7 @@ a img{
 .feed{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .publiAlguem{
@@ -120,8 +122,8 @@ a img{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
-    width: 275px;
-    height: 510px;
+    width: 255px;
+    height: 490px;
     background-color: var(--marrom-card);
     border-radius: 30px;
     padding-top: 20px;
@@ -133,7 +135,7 @@ a img{
 
 .publiAlguem h2, .publiUsuario h2{
     font-weight: 500;
-    font-size: 33px;
+    font-size: 30px;
 }
 
 .publiAlguem h2, .publiAlguem p, .publiUsuario h2, .publiUsuario p{
@@ -142,7 +144,7 @@ a img{
 }
 
 .publiAlguem p, .publiUsuario p{
-    font-size: 21px;
+    font-size: 19px;
     font-weight: 100;
 }
 
@@ -177,8 +179,8 @@ a img{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
-    width: 275px;
-    height: 510px;
+    width: 255px;
+    height: 490px;
     background-color: var(--user-card);
     border-radius: 30px;
     padding-top: 20px;
