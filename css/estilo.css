@@ -103,18 +103,13 @@ a img{
 .containerfeed{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     margin-top: 20px;
 }
 
 .containerfeed img{
     height: 36px;
-}
-
-.feed{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .publiAlguem{
@@ -130,7 +125,6 @@ a img{
     padding-left: 20px;
     padding-right: 15px;
     padding-bottom: 20px;
-    margin-right: 45px;
 }
 
 .publiAlguem h2, .publiUsuario h2{
@@ -187,5 +181,8 @@ a img{
     padding-left: 20px;
     padding-right: 15px;
     padding-bottom: 20px;
-    margin-right: 45px;
+}
+
+.publiAlguem, .publiUsuario{
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.349);
 }
