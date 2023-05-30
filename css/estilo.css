@@ -155,17 +155,19 @@ a img{
 }
 
 .poemaCard{
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
     padding: auto 0;
+    white-space: inherit;
 }
+
 .poemaCard:first-child{
     margin-top: 30px;
 }
 
 .poemaCard p{
     line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .publiUsuario{
