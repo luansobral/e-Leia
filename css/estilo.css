@@ -112,11 +112,8 @@ a img{
     height: 36px;
 }
 
-.publiAlguem{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
+/*CARD COMUM*/
+.publiAlguem{ 
     width: 255px;
     height: 490px;
     background-color: var(--marrom-card);
@@ -127,6 +124,7 @@ a img{
     padding-bottom: 20px;
 }
 
+/*FONTES DOS CARDS*/
 .publiAlguem h2, .publiUsuario h2{
     font-weight: 500;
     font-size: 30px;
@@ -146,35 +144,34 @@ a img{
     margin-bottom: 15px;
 }
 
+/*DIV DA ASSINATURA*/
 .containerAssinatura{
-    width: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: end;
+    height: 57px;
+    width: 100%;
     padding-bottom: 18px;
 }
 
+.assinatura{
+    display: block;
+    text-align: end;
+}
+
+/*DIV DOS POEMAS*/
 .poemaCard{
-    align-items: center;
-    padding: auto 0;
-    white-space: inherit;
-}
-
-.poemaCard:first-child{
-    margin-top: 30px;
-}
-
-.poemaCard p{
     line-height: 25px;
+    height: 305px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
+/*CARD DO USUÁRIO*/
 .publiUsuario{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: stretch;
     width: 255px;
     height: 490px;
     background-color: var(--user-card);
